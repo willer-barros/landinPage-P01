@@ -85,10 +85,11 @@ html, body{
     position: absolute;
     margin-top: 40px;
     margin: 100px;
-    background-color: rgba(80, 0, 123, 0.9);
-    width: 600px;
+    background-color: rgba(14, 12, 97, 0.9);
+    width: 560px;
     height: 300px;
 }
+
 
 .retangulo-itens li{
     margin: 20px;
@@ -106,11 +107,17 @@ html, body{
 .grupo h2{
     text-align: center;
     padding: 5px;
+    color: rgb(14, 12, 97);
 }
 
 .grupo p{
-    text-align: justify;
+    margin-top: 10px;
+    position: relative;
+    left: 23.5%;
+    text-align: center;
     font-size: 15px;
+    color: rgb(14, 12, 97);
+    width: 700px;
 }
 
 .arrow{
@@ -125,6 +132,45 @@ html, body{
     
 }
 
+.section{
+    padding: 70px 0;
+}
 
+.section h2{
+    text-align: center;
+    color: rgb(14, 12, 97);
+}
 
+.container-section img{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: 80px;
+    width: 70px;
+    left: 27%;
+}
+
+.container-section p{
+    display: inline-block;
+    margin-top: 160px;
+    position: relative;
+    left: 18%;
+    width: 200px;
+    font-size: small;
+    color:rgb(14, 12, 97);
+   
+}
+
+.footer{
+    border-top:solid 2px;
+    border-color: rgb(150, 150, 150);
+    width: 100%;
+}
+
+.footer p{
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    color: rgb(120 , 120, 120);
+}
 
